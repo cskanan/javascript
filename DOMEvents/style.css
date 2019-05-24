@@ -1,0 +1,24 @@
+.done {
+  text-decoration: line-through;
+}
+
+.listItem {
+  display: grid;
+  grid-template-columns: repeat(3, 200px 50px);
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 1px;
+  justify-items: start;
+  justify-content: start;
+  margin: 0;
+  /* grid-template-columns: (auto-fill, minmax(20px, 1fr));
+  grid-template-rows: 1fr; */
+  /* justify-content: space-around; */
+  /* padding: 20px; */
+}
+
+li {
+  list-style: none;
+}
+li:hover {
+  cursor: pointer;
+}
